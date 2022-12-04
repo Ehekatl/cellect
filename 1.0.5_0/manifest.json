@@ -1,0 +1,20 @@
+{
+  "content_scripts": [
+    {
+      "js": [
+        "cellect.user.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "description": "Select data in tables the same way you select cells in a spreadsheet.",
+  "homepage_url": "http://nottheoilrig.com/cellect",
+  "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCm00bA4leOYYYZPrxkZcS5yBpgkoLFj2Qo1lB1feaSDFWLZPSqzw7HWOGr2eeARwLvBjkH3QroUcOVgyLDZwBHbuGpINJZqCWfkIUCBEFtRYYqGpl/mhgCPifaaKD2f7NhnTAEj38jZ23JWiG0WHaz/Jd+couJi2z0QqyxZ/gfmwIDAQAB",
+  "manifest_version": 3,
+  "name": "Cellect",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "1.0.5",
+  "content_security_policy": {}
+}
